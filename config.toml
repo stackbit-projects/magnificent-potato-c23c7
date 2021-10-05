@@ -1,0 +1,104 @@
+baseURL = ""
+languageCode = "en-us"
+title = "Influencer"
+theme = "influencer hugo"
+summaryLength = "10"
+paginate = 6
+themesDir = "themes"
+publishDir = "public"
+
+[params]
+logo = ""
+home = "Home"
+description = "This is meta description"
+author = "Themefisher"
+googleAnalitycsID = ""
+copyright = "Copyright &copy; 2021 [Gethugothemes](https://gethugothemes.com) All Rights Reserved"
+
+[[params.plugins.css]]
+URL = "plugins/bootstrap/bootstrap.min.css"
+
+[[params.plugins.css]]
+URL = "plugins/slick/slick.css"
+
+[[params.plugins.css]]
+URL = "plugins/themify-icons/themify-icons.css"
+
+[[params.plugins.css]]
+URL = "plugins/magnific-popup/magnific-popup.css"
+
+[[params.plugins.js]]
+URL = "plugins/jQuery/jquery.min.js"
+
+[[params.plugins.js]]
+URL = "plugins/bootstrap/bootstrap.min.js"
+
+[[params.plugins.js]]
+URL = "plugins/slick/slick.min.js"
+
+[[params.plugins.js]]
+URL = "plugins/magnific-popup/magnific-popup.min.js"
+
+  [params.preloader]
+  enable = true
+  preloader = ""
+
+  [params.navButton]
+  enable = true
+
+  [params.cookies]
+  enable = true
+  expire_days = 2
+
+  [params.footer]
+  content = "Each theme featured at the Bootstrap marketplace has been reviewed by Bootstrap's creators.Lorem ipsum dolor sit amet, consectetur adipisicing elit."
+
+  [[params.share]]
+  title = "facebook"
+  icon = "ti-facebook"
+  link = "#"
+
+  [[params.share]]
+  title = "twitter"
+  icon = "ti-twitter-alt"
+  link = "#"
+
+  [[params.share]]
+  title = "linkedin"
+  icon = "ti-linkedin"
+  link = "#"
+
+  [[params.share]]
+  title = "github"
+  icon = "ti-github"
+  link = "#"
+
+[[menu.main]]
+name = "About"
+URL = "book"
+weight = 1
+
+[[menu.main]]
+name = "Chapter"
+URL = "chapter"
+weight = 2
+
+[[menu.main]]
+name = "Reviews"
+URL = "review"
+weight = 3
+
+[[menu.main]]
+name = "Author"
+URL = "author"
+weight = 4
+
+[[menu.main]]
+name = "Blog"
+URL = "blog"
+weight = 5
+
+[[menu.main]]
+name = "Contact"
+URL = "contact"
+weight = 6
